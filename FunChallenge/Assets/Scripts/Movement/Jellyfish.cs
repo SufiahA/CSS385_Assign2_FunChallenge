@@ -11,6 +11,7 @@ public class Jellyfish : MonoBehaviour
     [Header("Movement")]
     [Tooltip("Speed of movement")]
     public float speed = 5f;
+    public float rotateSpeed = 1f;
 
     private Vector2 movement, cachedDirection;
     private float moveHorizontal;
@@ -36,7 +37,7 @@ public class Jellyfish : MonoBehaviour
         else
         {
             GetComponent<Rigidbody2D>().freezeRotation = false;
-            GetComponent<Rigidbody2D>().MoveRotation(GetComponent<Rigidbody2D>().rotation + 1);
+            GetComponent<Rigidbody2D>().MoveRotation(GetComponent<Rigidbody2D>().rotation + rotateSpeed);
         }
     }
 }
