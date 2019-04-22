@@ -1353,7 +1353,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1324733860}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.3, y: 45, z: 0}
+  m_LocalPosition: {x: 4.9, y: 47.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2057,10 +2057,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1836807941}
   - component: {fileID: 1836807940}
-  - component: {fileID: 1836807939}
   - component: {fileID: 1836807938}
+  - component: {fileID: 1836807939}
   - component: {fileID: 1836807937}
-  - component: {fileID: 1836807942}
   m_Layer: 0
   m_Name: WinArea
   m_TagString: Untagged
@@ -2079,7 +2078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 0
+  levelName: Panic
 --- !u!61 &1836807938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2186,18 +2185,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1836807942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1836807936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: 0
 --- !u!1 &1852402694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,7 +2416,7 @@ MonoBehaviour:
   textColor: {r: 0.9862069, g: 1, b: 0, a: 1}
   targetObject: {fileID: 1324733864}
   disappearMode: 0
-  timeToDisappear: 5
+  timeToDisappear: 100
   keyToPress: 13
   followingText: {fileID: 0}
 --- !u!58 &1950791329
@@ -2467,10 +2454,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   happenOnlyOnce: 0
-  filterByTag: 1
+  filterByTag: 0
   filterTag: Player
   frequency: 1
-  eventType: 1
+  eventType: 0
 --- !u!212 &1950791331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2522,7 +2509,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1950791327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.782917, y: 45, z: 0}
+  m_LocalPosition: {x: 11.9, y: 45.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
