@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 29774227}
   - component: {fileID: 29774226}
   - component: {fileID: 29774225}
+  - component: {fileID: 29774229}
   m_Layer: 0
   m_Name: Asteroid2 (14)
   m_TagString: Untagged
@@ -283,6 +284,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &29774229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29774223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &48286436
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +313,7 @@ GameObject:
   - component: {fileID: 48286440}
   - component: {fileID: 48286439}
   - component: {fileID: 48286438}
+  - component: {fileID: 48286442}
   m_Layer: 0
   m_Name: Asteroid2 (48)
   m_TagString: Untagged
@@ -453,6 +472,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &48286442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48286436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &69964961
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +708,7 @@ GameObject:
   - component: {fileID: 128655403}
   - component: {fileID: 128655402}
   - component: {fileID: 128655401}
+  - component: {fileID: 128655405}
   m_Layer: 0
   m_Name: Asteroid2 (36)
   m_TagString: Untagged
@@ -830,6 +867,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &128655405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 128655399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &192816113
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +969,7 @@ GameObject:
   - component: {fileID: 196520828}
   - component: {fileID: 196520827}
   - component: {fileID: 196520826}
+  - component: {fileID: 196520830}
   m_Layer: 0
   m_Name: Asteroid2 (47)
   m_TagString: Untagged
@@ -1073,6 +1128,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &196520830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 196520824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &208688690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +1400,7 @@ GameObject:
   - component: {fileID: 260657490}
   - component: {fileID: 260657489}
   - component: {fileID: 260657488}
+  - component: {fileID: 260657493}
   m_Layer: 0
   m_Name: Asteroid2
   m_TagString: Untagged
@@ -1486,6 +1559,23 @@ Transform:
   m_Father: {fileID: 781129568}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &260657493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 260657487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &272173861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1588,7 @@ GameObject:
   - component: {fileID: 272173865}
   - component: {fileID: 272173864}
   - component: {fileID: 272173863}
+  - component: {fileID: 272173867}
   m_Layer: 0
   m_Name: Asteroid2 (50)
   m_TagString: Untagged
@@ -1656,6 +1747,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &272173867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 272173861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &297714896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1776,7 @@ GameObject:
   - component: {fileID: 297714900}
   - component: {fileID: 297714899}
   - component: {fileID: 297714898}
+  - component: {fileID: 297714902}
   m_Layer: 0
   m_Name: Asteroid2 (37)
   m_TagString: Untagged
@@ -1826,6 +1935,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &297714902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297714896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &316087639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,6 +1964,7 @@ GameObject:
   - component: {fileID: 316087643}
   - component: {fileID: 316087642}
   - component: {fileID: 316087641}
+  - component: {fileID: 316087645}
   m_Layer: 0
   m_Name: Asteroid2 (12)
   m_TagString: Untagged
@@ -1996,6 +2123,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &316087645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316087639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &332393355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2251,7 @@ GameObject:
   - component: {fileID: 345078998}
   - component: {fileID: 345078997}
   - component: {fileID: 345078996}
+  - component: {fileID: 345079000}
   m_Layer: 0
   m_Name: Asteroid2 (7)
   m_TagString: Untagged
@@ -2265,6 +2410,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &345079000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345078994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &351713744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,6 +2439,7 @@ GameObject:
   - component: {fileID: 351713748}
   - component: {fileID: 351713747}
   - component: {fileID: 351713746}
+  - component: {fileID: 351713750}
   m_Layer: 0
   m_Name: Asteroid2 (9)
   m_TagString: Untagged
@@ -2435,6 +2598,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &351713750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351713744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &358030249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,6 +2627,7 @@ GameObject:
   - component: {fileID: 358030253}
   - component: {fileID: 358030252}
   - component: {fileID: 358030251}
+  - component: {fileID: 358030255}
   m_Layer: 0
   m_Name: Asteroid2 (52)
   m_TagString: Untagged
@@ -2605,6 +2786,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &358030255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358030249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &366473488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,6 +2815,7 @@ GameObject:
   - component: {fileID: 366473492}
   - component: {fileID: 366473491}
   - component: {fileID: 366473490}
+  - component: {fileID: 366473494}
   m_Layer: 0
   m_Name: Asteroid2 (25)
   m_TagString: Untagged
@@ -2775,6 +2974,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &366473494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 366473488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &431872381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,6 +3111,7 @@ GameObject:
   - component: {fileID: 510960601}
   - component: {fileID: 510960600}
   - component: {fileID: 510960599}
+  - component: {fileID: 510960603}
   m_Layer: 0
   m_Name: Asteroid2 (27)
   m_TagString: Untagged
@@ -3053,6 +3270,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &510960603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510960597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &518014194
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3407,7 @@ GameObject:
   - component: {fileID: 534070491}
   - component: {fileID: 534070490}
   - component: {fileID: 534070489}
+  - component: {fileID: 534070493}
   m_Layer: 0
   m_Name: Asteroid2 (30)
   m_TagString: Untagged
@@ -3331,6 +3566,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &534070493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534070487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &597392991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3343,6 +3595,7 @@ GameObject:
   - component: {fileID: 597392995}
   - component: {fileID: 597392994}
   - component: {fileID: 597392993}
+  - component: {fileID: 597392997}
   m_Layer: 0
   m_Name: Asteroid2 (18)
   m_TagString: Untagged
@@ -3501,6 +3754,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &597392997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597392991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &648578206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3513,6 +3783,7 @@ GameObject:
   - component: {fileID: 648578210}
   - component: {fileID: 648578209}
   - component: {fileID: 648578208}
+  - component: {fileID: 648578212}
   m_Layer: 0
   m_Name: Asteroid2 (1)
   m_TagString: Untagged
@@ -3671,6 +3942,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &648578212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648578206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &733130544
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,6 +3971,7 @@ GameObject:
   - component: {fileID: 733130548}
   - component: {fileID: 733130547}
   - component: {fileID: 733130546}
+  - component: {fileID: 733130550}
   m_Layer: 0
   m_Name: Asteroid2 (26)
   m_TagString: Untagged
@@ -3841,6 +4130,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &733130550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733130544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &781129567
 GameObject:
   m_ObjectHideFlags: 0
@@ -3849,6 +4155,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 781129568}
+  - component: {fileID: 781129570}
   m_Layer: 0
   m_Name: Asteroids
   m_TagString: Untagged
@@ -3923,6 +4230,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &781129570
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781129567}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &793183990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,6 +4262,7 @@ GameObject:
   - component: {fileID: 793183994}
   - component: {fileID: 793183993}
   - component: {fileID: 793183992}
+  - component: {fileID: 793183996}
   m_Layer: 0
   m_Name: Asteroid2 (49)
   m_TagString: Untagged
@@ -4093,6 +4421,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &793183996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793183990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &793501510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4105,6 +4450,7 @@ GameObject:
   - component: {fileID: 793501514}
   - component: {fileID: 793501513}
   - component: {fileID: 793501512}
+  - component: {fileID: 793501516}
   m_Layer: 0
   m_Name: Asteroid2 (13)
   m_TagString: Untagged
@@ -4263,6 +4609,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &793501516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793501510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &850981409
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,6 +4638,7 @@ GameObject:
   - component: {fileID: 850981413}
   - component: {fileID: 850981412}
   - component: {fileID: 850981411}
+  - component: {fileID: 850981415}
   m_Layer: 0
   m_Name: Asteroid2 (20)
   m_TagString: Untagged
@@ -4433,6 +4797,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &850981415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850981409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &898700830
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,6 +4826,7 @@ GameObject:
   - component: {fileID: 898700834}
   - component: {fileID: 898700833}
   - component: {fileID: 898700832}
+  - component: {fileID: 898700836}
   m_Layer: 0
   m_Name: Asteroid2 (16)
   m_TagString: Untagged
@@ -4603,6 +4985,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &898700836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898700830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &925965850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,6 +5014,7 @@ GameObject:
   - component: {fileID: 925965854}
   - component: {fileID: 925965853}
   - component: {fileID: 925965852}
+  - component: {fileID: 925965856}
   m_Layer: 0
   m_Name: Asteroid2 (53)
   m_TagString: Untagged
@@ -4773,6 +5173,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &925965856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925965850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &933563843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,6 +5400,7 @@ GameObject:
   - component: {fileID: 1048496096}
   - component: {fileID: 1048496095}
   - component: {fileID: 1048496094}
+  - component: {fileID: 1048496098}
   m_Layer: 0
   m_Name: Asteroid2 (33)
   m_TagString: Untagged
@@ -5141,6 +5559,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1048496098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1048496092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1054942140
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,6 +5588,7 @@ GameObject:
   - component: {fileID: 1054942144}
   - component: {fileID: 1054942143}
   - component: {fileID: 1054942142}
+  - component: {fileID: 1054942146}
   m_Layer: 0
   m_Name: Asteroid2 (8)
   m_TagString: Untagged
@@ -5311,6 +5747,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1054942146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1054942140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1087229404
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,6 +5776,7 @@ GameObject:
   - component: {fileID: 1087229408}
   - component: {fileID: 1087229407}
   - component: {fileID: 1087229406}
+  - component: {fileID: 1087229410}
   m_Layer: 0
   m_Name: Asteroid2 (17)
   m_TagString: Untagged
@@ -5481,6 +5935,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1087229410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087229404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1088057530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,6 +5964,7 @@ GameObject:
   - component: {fileID: 1088057534}
   - component: {fileID: 1088057533}
   - component: {fileID: 1088057532}
+  - component: {fileID: 1088057536}
   m_Layer: 0
   m_Name: Asteroid2 (44)
   m_TagString: Untagged
@@ -5651,6 +6123,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1088057536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1088057530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1133638507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5663,6 +6152,7 @@ GameObject:
   - component: {fileID: 1133638511}
   - component: {fileID: 1133638510}
   - component: {fileID: 1133638509}
+  - component: {fileID: 1133638513}
   m_Layer: 0
   m_Name: Asteroid2 (19)
   m_TagString: Untagged
@@ -5821,6 +6311,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1133638513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133638507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1156134185
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,6 +6340,7 @@ GameObject:
   - component: {fileID: 1156134189}
   - component: {fileID: 1156134188}
   - component: {fileID: 1156134187}
+  - component: {fileID: 1156134191}
   m_Layer: 0
   m_Name: Asteroid2 (45)
   m_TagString: Untagged
@@ -5991,6 +6499,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1156134191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156134185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1156209973
 GameObject:
   m_ObjectHideFlags: 0
@@ -6003,6 +6528,7 @@ GameObject:
   - component: {fileID: 1156209977}
   - component: {fileID: 1156209976}
   - component: {fileID: 1156209975}
+  - component: {fileID: 1156209979}
   m_Layer: 0
   m_Name: Asteroid2 (40)
   m_TagString: Untagged
@@ -6161,6 +6687,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1156209979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156209973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1177224588
 GameObject:
   m_ObjectHideFlags: 0
@@ -6173,6 +6716,7 @@ GameObject:
   - component: {fileID: 1177224592}
   - component: {fileID: 1177224591}
   - component: {fileID: 1177224590}
+  - component: {fileID: 1177224594}
   m_Layer: 0
   m_Name: Asteroid2 (6)
   m_TagString: Untagged
@@ -6331,6 +6875,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1177224594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177224588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1185395801
 GameObject:
   m_ObjectHideFlags: 0
@@ -6442,6 +7003,7 @@ GameObject:
   - component: {fileID: 1269325554}
   - component: {fileID: 1269325553}
   - component: {fileID: 1269325552}
+  - component: {fileID: 1269325556}
   m_Layer: 0
   m_Name: Asteroid2 (51)
   m_TagString: Untagged
@@ -6600,6 +7162,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1269325556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1269325550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1291602881
 GameObject:
   m_ObjectHideFlags: 0
@@ -6612,6 +7191,7 @@ GameObject:
   - component: {fileID: 1291602885}
   - component: {fileID: 1291602884}
   - component: {fileID: 1291602883}
+  - component: {fileID: 1291602887}
   m_Layer: 0
   m_Name: Asteroid2 (35)
   m_TagString: Untagged
@@ -6770,6 +7350,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1291602887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291602881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1317441455
 GameObject:
   m_ObjectHideFlags: 0
@@ -6782,6 +7379,7 @@ GameObject:
   - component: {fileID: 1317441459}
   - component: {fileID: 1317441458}
   - component: {fileID: 1317441457}
+  - component: {fileID: 1317441461}
   m_Layer: 0
   m_Name: Asteroid2 (31)
   m_TagString: Untagged
@@ -6940,6 +7538,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1317441461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317441455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1324733860
 GameObject:
   m_ObjectHideFlags: 0
@@ -7183,6 +7798,7 @@ GameObject:
   - component: {fileID: 1334951452}
   - component: {fileID: 1334951451}
   - component: {fileID: 1334951450}
+  - component: {fileID: 1334951454}
   m_Layer: 0
   m_Name: Asteroid2 (3)
   m_TagString: Untagged
@@ -7341,6 +7957,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1334951454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1334951448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1341383304
 GameObject:
   m_ObjectHideFlags: 0
@@ -7381,6 +8014,7 @@ GameObject:
   - component: {fileID: 1350119213}
   - component: {fileID: 1350119212}
   - component: {fileID: 1350119211}
+  - component: {fileID: 1350119215}
   m_Layer: 0
   m_Name: Asteroid2 (4)
   m_TagString: Untagged
@@ -7539,6 +8173,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1350119215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350119209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1352966900
 GameObject:
   m_ObjectHideFlags: 0
@@ -7650,6 +8301,7 @@ GameObject:
   - component: {fileID: 1359529223}
   - component: {fileID: 1359529222}
   - component: {fileID: 1359529221}
+  - component: {fileID: 1359529225}
   m_Layer: 0
   m_Name: Asteroid2 (2)
   m_TagString: Untagged
@@ -7808,6 +8460,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1359529225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1359529219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1393490184
 GameObject:
   m_ObjectHideFlags: 0
@@ -7820,6 +8489,7 @@ GameObject:
   - component: {fileID: 1393490188}
   - component: {fileID: 1393490187}
   - component: {fileID: 1393490186}
+  - component: {fileID: 1393490190}
   m_Layer: 0
   m_Name: Asteroid2 (46)
   m_TagString: Untagged
@@ -7978,6 +8648,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1393490190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1393490184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1411567604
 GameObject:
   m_ObjectHideFlags: 0
@@ -8098,6 +8785,7 @@ GameObject:
   - component: {fileID: 1448051380}
   - component: {fileID: 1448051379}
   - component: {fileID: 1448051378}
+  - component: {fileID: 1448051382}
   m_Layer: 0
   m_Name: Asteroid2 (11)
   m_TagString: Untagged
@@ -8256,6 +8944,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1448051382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1448051376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1455806933
 GameObject:
   m_ObjectHideFlags: 0
@@ -8376,6 +9081,7 @@ GameObject:
   - component: {fileID: 1462155471}
   - component: {fileID: 1462155470}
   - component: {fileID: 1462155469}
+  - component: {fileID: 1462155473}
   m_Layer: 0
   m_Name: Asteroid2 (41)
   m_TagString: Untagged
@@ -8534,6 +9240,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1462155473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462155467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1465725142
 GameObject:
   m_ObjectHideFlags: 0
@@ -8546,6 +9269,7 @@ GameObject:
   - component: {fileID: 1465725146}
   - component: {fileID: 1465725145}
   - component: {fileID: 1465725144}
+  - component: {fileID: 1465725148}
   m_Layer: 0
   m_Name: Asteroid2 (29)
   m_TagString: Untagged
@@ -8704,6 +9428,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1465725148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1465725142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1501630584
 GameObject:
   m_ObjectHideFlags: 0
@@ -8716,6 +9457,7 @@ GameObject:
   - component: {fileID: 1501630588}
   - component: {fileID: 1501630587}
   - component: {fileID: 1501630586}
+  - component: {fileID: 1501630590}
   m_Layer: 0
   m_Name: Asteroid2 (34)
   m_TagString: Untagged
@@ -8874,6 +9616,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1501630590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501630584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1507276729
 GameObject:
   m_ObjectHideFlags: 0
@@ -8886,6 +9645,7 @@ GameObject:
   - component: {fileID: 1507276733}
   - component: {fileID: 1507276732}
   - component: {fileID: 1507276731}
+  - component: {fileID: 1507276735}
   m_Layer: 0
   m_Name: Asteroid2 (22)
   m_TagString: Untagged
@@ -9044,6 +9804,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1507276735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507276729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1525386946
 GameObject:
   m_ObjectHideFlags: 0
@@ -9056,6 +9833,7 @@ GameObject:
   - component: {fileID: 1525386950}
   - component: {fileID: 1525386949}
   - component: {fileID: 1525386948}
+  - component: {fileID: 1525386952}
   m_Layer: 0
   m_Name: Asteroid2 (42)
   m_TagString: Untagged
@@ -9214,6 +9992,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1525386952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525386946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1551082754
 GameObject:
   m_ObjectHideFlags: 0
@@ -9226,6 +10021,7 @@ GameObject:
   - component: {fileID: 1551082758}
   - component: {fileID: 1551082757}
   - component: {fileID: 1551082756}
+  - component: {fileID: 1551082760}
   m_Layer: 0
   m_Name: Asteroid2 (24)
   m_TagString: Untagged
@@ -9384,6 +10180,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1551082760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551082754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1611297324
 GameObject:
   m_ObjectHideFlags: 0
@@ -9396,6 +10209,7 @@ GameObject:
   - component: {fileID: 1611297328}
   - component: {fileID: 1611297327}
   - component: {fileID: 1611297326}
+  - component: {fileID: 1611297330}
   m_Layer: 0
   m_Name: Asteroid2 (32)
   m_TagString: Untagged
@@ -9554,6 +10368,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1611297330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611297324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1685435139
 GameObject:
   m_ObjectHideFlags: 0
@@ -9566,6 +10397,7 @@ GameObject:
   - component: {fileID: 1685435143}
   - component: {fileID: 1685435142}
   - component: {fileID: 1685435141}
+  - component: {fileID: 1685435145}
   m_Layer: 0
   m_Name: Asteroid2 (28)
   m_TagString: Untagged
@@ -9724,6 +10556,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1685435145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685435139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1698098143
 GameObject:
   m_ObjectHideFlags: 0
@@ -9736,6 +10585,7 @@ GameObject:
   - component: {fileID: 1698098147}
   - component: {fileID: 1698098146}
   - component: {fileID: 1698098145}
+  - component: {fileID: 1698098149}
   m_Layer: 0
   m_Name: Asteroid2 (10)
   m_TagString: Untagged
@@ -9894,6 +10744,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1698098149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698098143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1702620781
 GameObject:
   m_ObjectHideFlags: 0
@@ -9997,6 +10864,7 @@ GameObject:
   - component: {fileID: 1738727254}
   - component: {fileID: 1738727253}
   - component: {fileID: 1738727252}
+  - component: {fileID: 1738727256}
   m_Layer: 0
   m_Name: Asteroid2 (23)
   m_TagString: Untagged
@@ -10155,6 +11023,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1738727256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738727250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1739725984
 GameObject:
   m_ObjectHideFlags: 0
@@ -10167,6 +11052,7 @@ GameObject:
   - component: {fileID: 1739725988}
   - component: {fileID: 1739725987}
   - component: {fileID: 1739725986}
+  - component: {fileID: 1739725990}
   m_Layer: 0
   m_Name: Asteroid2 (5)
   m_TagString: Untagged
@@ -10325,6 +11211,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1739725990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739725984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1787215985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10607,6 +11510,7 @@ GameObject:
   - component: {fileID: 1939997414}
   - component: {fileID: 1939997413}
   - component: {fileID: 1939997412}
+  - component: {fileID: 1939997416}
   m_Layer: 0
   m_Name: Asteroid2 (21)
   m_TagString: Untagged
@@ -10765,6 +11669,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1939997416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939997410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1941752460
 GameObject:
   m_ObjectHideFlags: 0
@@ -10777,6 +11698,7 @@ GameObject:
   - component: {fileID: 1941752464}
   - component: {fileID: 1941752463}
   - component: {fileID: 1941752462}
+  - component: {fileID: 1941752466}
   m_Layer: 0
   m_Name: Asteroid2 (38)
   m_TagString: Untagged
@@ -10935,6 +11857,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1941752466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1941752460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &1950791327
 GameObject:
   m_ObjectHideFlags: 0
@@ -11081,6 +12020,7 @@ GameObject:
   - component: {fileID: 1965541240}
   - component: {fileID: 1965541239}
   - component: {fileID: 1965541238}
+  - component: {fileID: 1965541242}
   m_Layer: 0
   m_Name: Asteroid2 (39)
   m_TagString: Untagged
@@ -11239,6 +12179,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1965541242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1965541236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &2044178796
 GameObject:
   m_ObjectHideFlags: 0
@@ -11251,6 +12208,7 @@ GameObject:
   - component: {fileID: 2044178800}
   - component: {fileID: 2044178799}
   - component: {fileID: 2044178798}
+  - component: {fileID: 2044178802}
   m_Layer: 0
   m_Name: Asteroid2 (15)
   m_TagString: Untagged
@@ -11409,6 +12367,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2044178802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2044178796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
 --- !u!1 &2114584242
 GameObject:
   m_ObjectHideFlags: 0
@@ -11421,6 +12396,7 @@ GameObject:
   - component: {fileID: 2114584246}
   - component: {fileID: 2114584245}
   - component: {fileID: 2114584244}
+  - component: {fileID: 2114584248}
   m_Layer: 0
   m_Name: Asteroid2 (43)
   m_TagString: Untagged
@@ -11579,3 +12555,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2114584248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114584242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 1
+  directionChangeInterval: 1
+  keepNearStartingPoint: 0
+  orientToDirection: 0
+  lookAxis: 0
