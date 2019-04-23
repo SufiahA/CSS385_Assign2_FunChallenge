@@ -376,7 +376,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FLOAT
+  m_Text: THREE STATES
 --- !u!222 &789377568
 CanvasRenderer:
   m_ObjectHideFlags: 0
